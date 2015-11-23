@@ -210,12 +210,14 @@ PRODUCT_PACKAGES_DEBUG += \
     libdx-crys \
     start-sep
 
-# BCM4752 GPS
-PRODUCT_PACKAGES += \
-    gps_bcm_4752
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.spid.gps.pmm=disabled \
-    ro.spid.gps.tty=ttyMFD1
+##Temporary build fix
+#
+## BCM4752 GPS
+#PRODUCT_PACKAGES += \
+#    gps_bcm_4752
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.spid.gps.pmm=disabled \
+#    ro.spid.gps.tty=ttyMFD1
 
 
 # bluetooth
